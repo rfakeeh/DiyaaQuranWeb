@@ -5,14 +5,96 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ضياء القرآن - Diyaa Quran</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link href="../static/css/main.css" rel="stylesheet">
 </head>
 
 <body>
 
-  <img class="chat" src="../static/img/chat2.png" onclick="redirectToPage('/')"/>
+  <div class="container-fluid full-height">
+    <div class="row" style="height: 100%; text-align: center;">
 
+      <div class="col-9 chat-area">
+
+        <div class="row chat-header">
+          <div class="col">
+            <img src="../static/img/chat-header.png" class="img-fluid" onclick="redirectToPage('/')"/>
+          </div>
+        </div>
+
+        <div class="row chat-body">
+          <div class="col">
+
+            <div class="row diyaa-response">
+              <div class="col-1">
+                <img src="../static/img/logo.png" class="diyaa">
+              </div>
+              <div class="col response">
+                <p class="text">مرحبا! أنا روبوت ضياء القرآن الذكي يسعدني أن أقترح لك الآيات القرآنية الأكثر ملائمة للاستشهاد بها بناءً على مدخلاتك، والتي يمكن أن تكون نصية أو مرئية أو كلاهما. بالاستفادة من تقنيات المعالجة اللغوية والتعرف على الصور، يمكنني بضغطة زر واحدة فهم سياق المحتوى الخاص بك واضاءته بالآيات القرآنية الأكثر صلة به.</p>
+                <!--<img class="img"/>-->
+                <!--<p class="video"></p>-->
+              </div>
+            </div>
+
+            <!--
+            <div class="row user-prompt">
+              <div class="col-1">
+                <img src="../static/img/user.png" class="user">
+              </div>
+              <div class="col prompt">
+                <p class="text">ضياء القرآن روبوت ضياء القرآن الذكي سوف يقترح لك الآيات القرآنية الأكثر ملائمة للاستشهاد بها بناءً على مدخلاتك، والتي يمكن أن تكون نصية أو مرئية أو كلاهما. بالاستفادة من تقنيات المعالجة اللغوية والتعرف على الصور، يمكن لروبوت الدردشة بضغطة زر واحدة فهم سياق المحتوى الخاص بك واضاءته بالآيات القرآنية الأكثر صلة به.</p>
+                <img class="img"/>
+                <p class="video"></p>
+              </div>
+            </div>
+            -->
+
+          </div>
+        </div>
+
+        <div class="row chat-form align-items-center fixed-bottom">
+          <div class="col-9">
+            <div class="row">
+              <div class="col">
+                <img src="../static/img/line.png" class="line">
+              </div>
+            </div>
+            <div class="row" style="flex-direction: row;">
+              <img src="../static/img/logo.png" class="img-fluid"/>
+              <div class="chat-input">
+                <div class="input-group mb-3" style="margin-bottom: 0 !important">
+
+                  <button type="button" class="btn">
+                    <img src="../static/img/attach.png" class="attach">
+                  </button>
+
+                  <input type="text" class="form-control" placeholder="أدخل نصا، رابط فيديو، أو أرفع صورة">
+                  
+                  <button type="button" class="btn">
+                    <img src="../static/img/send.png" class="send">
+                  </button>
+
+                </div>
+              </div>
+            </div>
+            
+          </div>
+          <div class="col-3"></div>
+        </div>
+
+      </div>
+
+      <div class="col-3 menu-area">
+        <div class="col">
+          <img src="../static/img/left-side.png" class="img-fluid"/>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
   <script src="../static/js/main.js"></script>
 </body>
 

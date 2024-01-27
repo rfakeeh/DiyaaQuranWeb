@@ -1,4 +1,99 @@
-img {
+.full-height {
+    height: 100vh;
+    margin: 0;
+}
+
+img.index {
     width: 100%;
     height: auto;
+    cursor: pointer;
+}
+
+.chat-area {
+    padding: 30px 150px;
+}
+
+.chat-body {
+    
+}
+
+.prompt, .response {
+    text-align: justify;
+    font-weight: 800;
+}
+
+.prompt .text, .response .text {
+    margin-right: 15px;
+}
+
+.user-prompt img.user, .diyaa-response img.diyaa {
+    width: 60px;
+    height : 60px;
+}
+
+.chat-form {
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+.chat-form .col-9 {
+    height: 100%;
+    padding: 0 150px;
+}
+
+.chat-form img {
+    width: 80px;
+    height: 80px;
+    padding: 0;
+}
+
+.chat-form img.line {
+    width: 100%;
+    height: auto;
+    margin-bottom: 40px;
+}
+
+.chat-input {
+    background-image: url(../img/input.png);
+    background-size: cover;
+    height: 80px;
+    width: 740px;
+    margin-right: 5px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.chat-input button img.attach {
+    height: 30px;
+    width: 25px;
+}
+
+.chat-input button img.send {
+    height: 35px;
+    width: 35px;
+}
+
+.chat-input input {
+    border-radius: 12px;
+}
+
+.menu-area {
+    padding: 10px;
+}
+
+.chat-header img {
+    height: 250px;
+    width: auto;
+    cursor: pointer;
+}
+
+.btn:focus {
+    box-shadow: 0 0 0 0.25rem #52A39D !important;
+}
+
+.form-control:focus {
+    border-color: #E7ECF0 !important;
+    box-shadow: 0 0 0 0.25rem #E7ECF0 !important;
 }
