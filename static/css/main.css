@@ -86,6 +86,7 @@ img.index {
 
 .menu-area {
     padding: 10px;
+    border-right: 1px solid silver;
 }
 
 .chat-header img {

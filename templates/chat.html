@@ -52,7 +52,7 @@
                   <img src="../static/img/line.png" class="line">
                 </div>
               </div>
-              <form>
+              <form id="form" name="form" enctype="multipart/form-data">
 
                 <div class="row" style="flex-direction: row;">
                   <img src="../static/img/logo.png" class="img-fluid" />
@@ -61,8 +61,9 @@
                     <div class="input-group mb-3" style="margin-bottom: 0 !important">
 
                       <button type="button" class="btn">
-                        <img src="../static/img/attach.png" class="attach">
+                        <img src="../static/img/attach.png" class="attach" id="attach">
                       </button>
+                      <input type="file" name="image" id="image" style="display:none" />
 
                       <input type="text" class="form-control" id="text" placeholder="أدخل نصا، رابط فيديو، أو أرفع صورة">
 
