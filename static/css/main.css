@@ -14,7 +14,7 @@ img.index {
 }
 
 .chat-body {
-    
+    margin-bottom: 250px;   
 }
 
 .prompt, .response {
@@ -24,6 +24,11 @@ img.index {
 
 .prompt .text, .response .text {
     margin-right: 15px;
+}
+
+.user-prompt, .diyaa-response{
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 
 .user-prompt img.user, .diyaa-response img.diyaa {
@@ -97,3 +102,5 @@ img.index {
     border-color: #E7ECF0 !important;
     box-shadow: 0 0 0 0.25rem #E7ECF0 !important;
 }
+
+
